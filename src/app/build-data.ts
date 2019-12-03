@@ -1,0 +1,34 @@
+export interface BuildData {
+  ID: string | null;
+  Priority: string | null;
+  Status: string | null;
+  Site: string | null;
+  VC_Service: string | null;
+  Description: string | null;
+  VC_Name: string | null;
+  VC_Build_Version: string | null;
+  BC: string | null;
+  Targeted_Delivery: string | null;
+  Project_Delivery_Date: string | null;
+  Revised_Delivery: string | null;
+  DR_Pair_MACD_Status: string | null;
+  Loadbalancer_Status: string | null;
+  Actual_Completion: string | null;
+  PM_Assigned: string | null;
+  IaaS_Build_Lead: string | null;
+  PM_RAG: string | null;
+  WRM_Assignment: string | null;
+  Calculated_Project_Delivery: string | null;
+  Created: string | null;
+  Created_By: string | null;
+  Modified: string | null;
+  Modified_by: string | null;
+  Notes: string | null;
+  Usage: string | null;
+  Planned_QA: string | null;
+  Environment: string | null;
+  VIE_Size: string | null;
+  Production_Line: string | null;
+  Project: string | null;
+  Jira: string | null;
+}
